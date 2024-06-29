@@ -19,7 +19,7 @@ public class EmployeeJDBC {
 
     public static void setupConnection() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/firstDb", "root", "Lucky@7878");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/firstDb", "root", "myPassword");
             System.out.println("Successfully connected!");
         }
         catch (SQLException e) {
